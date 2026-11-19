@@ -1,0 +1,19 @@
+# Secrets — never commit
+secrets.json
+.env
+*.key
+
+# Python (for whoever implements this spec here)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local artifacts
+*.wav
+*.log
+scratch/
+
+# OS
+.DS_Store
+Thumbs.db
